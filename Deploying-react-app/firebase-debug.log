@@ -1,0 +1,36 @@
+[debug] [2023-02-16T11:50:33.307Z] ----------------------------------------------------------------------
+[debug] [2023-02-16T11:50:33.311Z] Command:       /home/milan/.asdf/installs/nodejs/16.19.0/bin/node /home/milan/.asdf/installs/nodejs/16.19.0/bin/firebase login
+[debug] [2023-02-16T11:50:33.312Z] CLI Version:   11.23.1
+[debug] [2023-02-16T11:50:33.312Z] Platform:      linux
+[debug] [2023-02-16T11:50:33.312Z] Node Version:  v16.19.0
+[debug] [2023-02-16T11:50:33.322Z] Time:          Thu Feb 16 2023 12:50:33 GMT+0100 (Central European Standard Time)
+[debug] [2023-02-16T11:50:33.323Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-02-16T11:50:33.346Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI and Emulator Suite usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2023-02-16T11:50:33.828Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2023-02-16T11:50:33.829Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] i  To change your data collection preference at any time, run `firebase logout` and log in again. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=1005754021&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
+[debug] [2023-02-16T11:51:52.987Z] >>> [apiv2][query] POST https://auth.firebase.tools/attest [none]
+[debug] [2023-02-16T11:51:52.988Z] >>> [apiv2][body] POST https://auth.firebase.tools/attest {"session_id":"9b983d16-03bd-4b8d-9db9-ffab917a89c1"}
+[debug] [2023-02-16T11:51:53.987Z] <<< [apiv2][status] POST https://auth.firebase.tools/attest 200
+[debug] [2023-02-16T11:51:53.987Z] <<< [apiv2][body] POST https://auth.firebase.tools/attest {"token":"9RYwXK5bPjE6DfKC2U57Aszs0MspO9-PslSvWBfvmdc"}
+[info] 
+[info] To sign in to the Firebase CLI:
+[info] 
+[info] 1. Take note of your session ID:
+[info] 
+[info]    9B983
+[info] 
+[info] 2. Visit the URL below on any device and follow the instructions to get your code:
+[info] 
+[info]    https://auth.firebase.tools/login?code_challenge=7pYxgzz1p0bCbMVgbVthriu_wrSrFqv8_xNW-5Kb6P8&session=9b983d16-03bd-4b8d-9db9-ffab917a89c1&attest=9RYwXK5bPjE6DfKC2U57Aszs0MspO9-PslSvWBfvmdc
+[info] 
+[info] 3. Paste or enter the authorization code below once you have it:
+[info] 
